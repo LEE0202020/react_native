@@ -36,7 +36,7 @@ export default function index() {
                             className='rounded-full'
                             key={i}
                             style={{width: 20, height: 20}}
-                            source={require("@/assets/images/zustand/cat01.jpg")}
+                            source={require("@/assets/images/zustand/cat.jpeg")}
                             resizeMode="cover"
                         />
                     ))}

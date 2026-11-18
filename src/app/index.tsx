@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { router } from "expo-router";
-import { Pressable, ScrollView, Text, TouchableOpacity } from "react-native";
+import { ScrollView, Pressable, Text, TouchableOpacity, View } from "react-native";
 
 // TouchableOpacity == a
 // Pressable == button
@@ -14,12 +14,14 @@ export default function HomeScreen() {
         "flatlist",
         "stack",
         "infinite",
-        "zustand",
         "camera",
         "notification01",
         "notification02",
         "location",
-        "audio"
+        "audio",
+        "haptics",
+        "files",
+        "video"
     ]
     
     const tagList = tags.map((tag, i) => (
